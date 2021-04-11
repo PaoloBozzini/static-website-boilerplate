@@ -1,0 +1,20 @@
+@mixin absCenter {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+@mixin marginBottomHover($color) {
+      padding-bottom:2px; 
+      background: linear-gradient($color,$color) center bottom; 
+      background-size: 0% 1px; 
+      background-repeat:no-repeat;
+      transition: all 0.4s;
+
+      &:hover{
+          background-size: 100% 1px;
+    }
+}
+
+

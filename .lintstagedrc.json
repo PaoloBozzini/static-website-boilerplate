@@ -1,0 +1,4 @@
+{
+   "*.(j|t)s?(x)": "eslint --fix",
+   "*.{(j|t)s?(x),md,html,css}": "prettier --write"
+}
